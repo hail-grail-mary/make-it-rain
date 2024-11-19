@@ -3,12 +3,12 @@ import subprocess
 
 def get_android_subscriber_info():
     # Placeholder function for Android subscriber info
-    print("Fetching Android subscriber info...")
-    # Add actual implementation here
+    output = "Fetching Android subscriber info..."
+    return output  # Return the output instead of printing
 
 def get_system_info():
     # Function to get system information for Windows or macOS
-    print("Fetching system information...")
+    output = "Fetching system information...\n"
     system_info = {
         "system": platform.system(),
         "node": platform.node(),
@@ -18,30 +18,35 @@ def get_system_info():
         "processor": platform.processor()
     }
     for key, value in system_info.items():
-        print(f"{key}: {value}")
+        output += f"{key}: {value}\n"
+    return output  # Return the output instead of printing
 
 def detect_device():
     os_name = platform.system()
+    output = ""
     if os_name == "Linux":
         try:
             # Check if it's an Android device
             result = subprocess.run(["getprop", "ro.build.version.release"], capture_output=True, text=True)
             if result.returncode == 0:
-                print("Running on an Android device")
-                get_android_subscriber_info()
+                output += "Running on an Android device\n"
+                output += get_android_subscriber_info()
             else:
-                print("Running on a Linux device")
-                get_system_info()
+                output += "Running on a Linux device\n"
+                output += get_system_info()
         except FileNotFoundError:
-            print("Running on a Linux device")
+            output += "Running on a Linux device\n"
     elif os_name == "Windows":
-        print("Running on a Windows device")
-        get_system_info()
+        output += "Running on a Windows device\n"
+        output += get_system_info()
     elif os_name == "Darwin":
-        print("Running on a macOS device")
-        get_system_info()
+        output += "Running on a macOS device\n"
+        output += get_system_info()
     else:
-        print(f"Running on an unknown device: {os_name}")
+        output += f"Running on an unknown device: {os_name}\n"
+
+    return output  # Return the output for display
 
 if __name__ == "__main__":
-    detect_device()
+    result = detect_device()
+    print(result)  # Print the final result for capture
