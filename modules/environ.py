@@ -31,6 +31,7 @@ def detect_device():
                 get_android_subscriber_info()
             else:
                 print("Running on a Linux device")
+                get_system_info()
         except FileNotFoundError:
             print("Running on a Linux device")
     elif os_name == "Windows":
