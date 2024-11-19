@@ -42,6 +42,9 @@ def detect_device():
     elif os_name == "Darwin":
         output += "Running on a macOS device\n"
         output += get_system_info()
+    elif os_name == "Emscripten":
+        output += "Running in Emscripten environment\n"
+        output += "This environment is a web-based compilation and does not represent a traditional OS.\n"
     else:
         output += f"Running on an unknown device: {os_name}\n"
 
