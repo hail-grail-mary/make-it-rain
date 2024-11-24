@@ -13,6 +13,7 @@ def get_system_info():
         "system": platform.system(),
         "node": platform.node(),
         "release": platform.release(),
+        "version": platform.version(),
         "machine": platform.machine(),
         "processor": platform.processor()
     }
@@ -48,5 +49,7 @@ def detect_device():
         output += f"Running on an unknown device: {os_name}\n"
 
     return output  # Return the output for display
-result = get_system_info()
-print(result)  # Print the final result for capture
+
+if __name__ == "__main__":
+    result = detect_device()
+    print(result)  # Print the final result for capture
