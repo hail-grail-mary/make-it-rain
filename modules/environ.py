@@ -49,7 +49,5 @@ def detect_device():
         output += f"Running on an unknown device: {os_name}\n"
 
     return output  # Return the output for display
-
-if __name__ == "__main__":
-    result = detect_device()
-    print(result)  # Print the final result for capture
+result = detect_device()
+print(result)  # Print the final result for capture
