@@ -47,8 +47,7 @@ def detect_device():
         output += "This environment is a web-based compilation and does not represent a traditional OS.\n"
     else:
         output += f"Running on an unknown device: {os_name}\n"
-        output += get_system_info()
 
     return output  # Return the output for display
-result = detect_device()
+result = get_system_info()
 print(result)  # Print the final result for capture
