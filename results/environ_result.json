@@ -1,1 +1,1 @@
-{"success":true,"output":"[*] In environment module.\n\nUSER: web_user\nLOGNAME: web_user\nPATH: /\nPWD: /\nHOME: /home/pyodide\nLANG: en_GB.UTF-8\n_: ./this.program\nLD_LIBRARY_PATH: /usr/lib:/lib/python3.11/site-packages"}
+{"success":true,"output":"[*] In environment module.\n\nHOME: blob:http:/\nPYTHONPATH: http://127.0.0.1:8080/"}
