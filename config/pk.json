@@ -2,8 +2,5 @@
 
     {
         "module" : "environ"
-    },
-    {
-        "module" : "cli_"
     }
 ]
