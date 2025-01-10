@@ -53,4 +53,4 @@ function getClientDeviceInfo() {
 
 // Example usage
 const deviceInfo = getClientDeviceInfo();
-console.log("Client Device Info:", deviceInfo);
+
