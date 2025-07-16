@@ -10,6 +10,6 @@
         "type": "module",
         "module": "environ",
         "description": "Collect browser and system environment data"
-    },
+    }
     
 ]
