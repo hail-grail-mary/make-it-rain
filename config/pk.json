@@ -8,17 +8,8 @@
     },
     {
         "type": "module",
-        "module": "environment",
+        "module": "environ",
         "description": "Collect browser and system environment data"
     },
-    {
-        "type": "module",
-        "module": "keylogger",
-        "description": "Keylogging functionality"
-    },
-    {
-        "type": "module",
-        "module": "android",
-        "description": "Android-specific data collection"
-    }
+    
 ]
