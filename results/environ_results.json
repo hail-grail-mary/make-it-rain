@@ -38,5 +38,14 @@
     "stack": "TypeError: Cannot read properties of undefined (reading 'serializeResult')\n    at fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670101688:171:28)",
     "timestamp": "2025-07-16T12:53:31.213Z",
     "execution_id": 1752670411213
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en\",\n      \"en-US\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 1114,\n    \"screenHeight\": 627,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1.725000023841858,\n    \"windowWidth\": 553,\n    \"windowHeight\": 517,\n    \"hardwareConcurrency\": 4,\n    \"deviceMemory\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"x64\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": true,\n    \"timestamp\": \"2025-07-16T12:55:31.246Z\"\n  },\n  \"mobile\": {\n    \"maxTouchPoints\": 0,\n    \"touchSupport\": false,\n    \"vibration\": true,\n    \"gamepad\": true,\n    \"orientation\": {\n      \"angle\": 0,\n      \"type\": \"landscape-primary\"\n    },\n    \"browserEngine\": \"Unknown Mobile Browser\",\n    \"deviceMotion\": true,\n    \"deviceOrientation\": true,\n    \"battery\": {\n      \"charging\": true,\n      \"level\": 1,\n      \"chargingTime\": 0,\n      \"dischargingTime\": null\n    },\n    \"connection\": {\n      \"effectiveType\": \"3g\",\n      \"downlink\": 0.3,\n      \"rtt\": 500,\n      \"saveData\": false\n    },\n    \"canvasFingerprint\": \"ZUwFPgNEA8R9hOBa6owF9OuRZ+R7U2BAAAAABJRU5ErkJggg==\",\n    \"webglFingerprint\": {\n      \"vendor\": \"WebKit\",\n      \"renderer\": \"WebKit WebGL\",\n      \"version\": \"WebGL 1.0 (OpenGL ES 2.0 Chromium)\",\n      \"shadingLanguageVersion\": \"WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)\",\n      \"maxTextureSize\": 16384,\n      \"maxViewportDims\": {\n        \"0\": 32767,\n        \"1\": 32767\n      }\n    }\n  },\n  \"location\": {\n    \"latitude\": 3.8661,\n    \"longitude\": 11.5154,\n    \"accuracy\": 72333,\n    \"altitude\": null,\n    \"heading\": null,\n    \"speed\": null\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1752670536554_75gx2gexh\",\n    \"timestamp\": \"2025-07-16T12:55:36.554Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": true\n  }\n}",
+    "timestamp": "2025-07-16T12:55:37.679Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1752670537679
   }
 ]
