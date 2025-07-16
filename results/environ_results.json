@@ -22,5 +22,13 @@
     "stack": "TypeError: Cannot read properties of undefined (reading 'serializeResult')\n    at fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670101688:171:28)",
     "timestamp": "2025-07-16T12:49:02.765Z",
     "execution_id": 1752670142765
+  },
+  {
+    "module": "environ",
+    "success": false,
+    "error": "this.getBasicInfo is not a function",
+    "stack": "TypeError: this.getBasicInfo is not a function\n    at EnvironmentDetector.collectEnvironmentData (eval at fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670101688:150:26), <anonymous>:10:38)\n    at eval (eval at fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670101688:150:26), <anonymous>:41:10)\n    at fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670101688:150:26)",
+    "timestamp": "2025-07-16T12:50:10.489Z",
+    "execution_id": 1752670210489
   }
 ]
