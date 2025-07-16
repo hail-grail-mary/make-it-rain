@@ -47,5 +47,13 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1752670537679
+  },
+  {
+    "module": "environ",
+    "success": false,
+    "error": "Request failed with status code 409",
+    "stack": "AxiosError: Request failed with status code 409\n    at settle (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:1351:12)\n    at XMLHttpRequest.onloadend (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:1722:7)\n    at Axios.request (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:2299:41)\n    at async Object.storeResultToGithub (http://localhost:5173/src/workers/GithubService.js?t=1752669166833:60:5)\n    at async fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670529648:181:13)",
+    "timestamp": "2025-07-16T12:55:39.487Z",
+    "execution_id": 1752670539487
   }
 ]
