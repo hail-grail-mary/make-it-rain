@@ -55,5 +55,14 @@
     "stack": "AxiosError: Request failed with status code 409\n    at settle (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:1351:12)\n    at XMLHttpRequest.onloadend (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:1722:7)\n    at Axios.request (http://localhost:5173/node_modules/.vite/deps/axios.js?v=53fbf8a0:2299:41)\n    at async Object.storeResultToGithub (http://localhost:5173/src/workers/GithubService.js?t=1752669166833:60:5)\n    at async fetchConfigAndRunModules (http://localhost:5173/src/components/GitRunner.vue?t=1752670529648:181:13)",
     "timestamp": "2025-07-16T12:55:39.487Z",
     "execution_id": 1752670539487
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36\",\n    \"platform\": \"Linux armv81\",\n    \"language\": \"en-US\",\n    \"languages\": [\n      \"en-US\",\n      \"en-CM\",\n      \"de-DE\",\n      \"de\",\n      \"en\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 360,\n    \"screenHeight\": 780,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 3,\n    \"windowWidth\": 360,\n    \"windowHeight\": 680,\n    \"hardwareConcurrency\": 8,\n    \"timezone\": \"Africa/Douala\",\n    \"timezoneOffset\": -60,\n    \"architecture\": \"ARM\",\n    \"detectedPlatform\": \"Android\",\n    \"isMobile\": true,\n    \"timestamp\": \"2025-07-17T14:20:17.453Z\"\n  },\n  \"mobile\": {\n    \"maxTouchPoints\": 5,\n    \"touchSupport\": true,\n    \"vibration\": true,\n    \"gamepad\": true,\n    \"orientation\": {\n      \"angle\": 0,\n      \"type\": \"portrait-primary\"\n    },\n    \"browserEngine\": \"Chrome Mobile\",\n    \"deviceMotion\": false,\n    \"deviceOrientation\": false,\n    \"connection\": {\n      \"effectiveType\": \"3g\",\n      \"downlink\": 1.1,\n      \"rtt\": 400,\n      \"saveData\": false\n    },\n    \"canvasFingerprint\": \"xNBfockK3Z2aitSIFtrcD/A4IFoKvDfMTfAAAAAElFTkSuQmCC\",\n    \"webglFingerprint\": {\n      \"vendor\": \"WebKit\",\n      \"renderer\": \"WebKit WebGL\",\n      \"version\": \"WebGL 1.0 (OpenGL ES 2.0 Chromium)\",\n      \"shadingLanguageVersion\": \"WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)\",\n      \"maxTextureSize\": 4096,\n      \"maxViewportDims\": {\n        \"0\": 8192,\n        \"1\": 8192\n      }\n    }\n  },\n  \"location\": {\n    \"error\": \"Only secure origins are allowed (see: https://goo.gl/Y0ZkNV).\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1752762017508_v2aaud98p\",\n    \"timestamp\": \"2025-07-17T14:20:17.508Z\",\n    \"platform\": \"Android\",\n    \"isMobile\": true\n  }\n}",
+    "timestamp": "2025-07-17T14:20:18.542Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1752762018541
   }
 ]
