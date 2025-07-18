@@ -43,5 +43,13 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1752803116107
+  },
+  {
+    "module": "environ",
+    "success": false,
+    "error": "timeout of 15000ms exceeded",
+    "stack": "AxiosError: timeout of 15000ms exceeded\n    at XMLHttpRequest.handleTimeout (http://10.209.61.12:5173/node_modules/.vite/deps/axios.js?v=e5ea6e4c:1761:14)\n    at Axios.request (http://10.209.61.12:5173/node_modules/.vite/deps/axios.js?v=e5ea6e4c:2299:41)\n    at async Object.getModuleCodeFromGithub (http://10.209.61.12:5173/src/workers/GithubService.js:40:20)\n    at async fetchConfigAndRunModules (http://10.209.61.12:5173/src/components/GitRunner.vue:135:32)",
+    "timestamp": "2025-07-18T02:33:25.925Z",
+    "execution_id": 1752806005925
   }
 ]
