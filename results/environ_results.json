@@ -97,5 +97,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1753136224692
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 800,\n    \"screenHeight\": 600,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1,\n    \"windowWidth\": 1024,\n    \"windowHeight\": 768,\n    \"hardwareConcurrency\": 4,\n    \"deviceMemory\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"Unknown\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": false,\n    \"timestamp\": \"2025-07-22T08:20:19.310Z\"\n  },\n  \"mobile\": null,\n  \"location\": {\n    \"error\": \"Timeout expired\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1753172424326_jus21824i\",\n    \"timestamp\": \"2025-07-22T08:20:24.326Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": false\n  }\n}",
+    "timestamp": "2025-07-22T08:20:25.324Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1753172425324
   }
 ]
