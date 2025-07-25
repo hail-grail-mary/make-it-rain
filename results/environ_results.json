@@ -115,5 +115,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1753178173049
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en\",\n      \"en-US\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 1114,\n    \"screenHeight\": 627,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1.725000023841858,\n    \"windowWidth\": 557,\n    \"windowHeight\": 519,\n    \"hardwareConcurrency\": 4,\n    \"deviceMemory\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"x64\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": true,\n    \"timestamp\": \"2025-07-25T08:01:13.567Z\"\n  },\n  \"mobile\": {\n    \"maxTouchPoints\": 0,\n    \"touchSupport\": false,\n    \"vibration\": true,\n    \"gamepad\": true,\n    \"orientation\": {\n      \"angle\": 0,\n      \"type\": \"landscape-primary\"\n    },\n    \"browserEngine\": \"Unknown Mobile Browser\",\n    \"deviceMotion\": true,\n    \"deviceOrientation\": true,\n    \"battery\": {\n      \"charging\": true,\n      \"level\": 1,\n      \"chargingTime\": 0,\n      \"dischargingTime\": null\n    },\n    \"connection\": {\n      \"effectiveType\": \"3g\",\n      \"downlink\": 1.3,\n      \"rtt\": 550,\n      \"saveData\": false\n    },\n    \"canvasFingerprint\": \"ZUwFPgNEA8R9hOBa6owF9OuRZ+R7U2BAAAAABJRU5ErkJggg==\",\n    \"webglFingerprint\": {\n      \"vendor\": \"WebKit\",\n      \"renderer\": \"WebKit WebGL\",\n      \"version\": \"WebGL 1.0 (OpenGL ES 2.0 Chromium)\",\n      \"shadingLanguageVersion\": \"WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)\",\n      \"maxTextureSize\": 16384,\n      \"maxViewportDims\": {\n        \"0\": 32767,\n        \"1\": 32767\n      }\n    }\n  },\n  \"location\": {\n    \"error\": \"Timeout expired\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1753430478860_5aeayrhdd\",\n    \"timestamp\": \"2025-07-25T08:01:18.860Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": true\n  }\n}",
+    "timestamp": "2025-07-25T08:01:19.836Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1753430479836
   }
 ]
