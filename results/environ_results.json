@@ -133,5 +133,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1753500993321
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en\",\n      \"en-US\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 1114,\n    \"screenHeight\": 627,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1.725000023841858,\n    \"windowWidth\": 1034,\n    \"windowHeight\": 519,\n    \"hardwareConcurrency\": 4,\n    \"deviceMemory\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"x64\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": false,\n    \"timestamp\": \"2025-07-29T10:54:11.104Z\"\n  },\n  \"mobile\": null,\n  \"location\": {\n    \"latitude\": 3.8661,\n    \"longitude\": 11.5154,\n    \"accuracy\": 52176,\n    \"altitude\": null,\n    \"heading\": null,\n    \"speed\": null\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1753786452903_foph5gh7i\",\n    \"timestamp\": \"2025-07-29T10:54:12.903Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": false\n  }\n}",
+    "timestamp": "2025-07-29T10:54:14.297Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1753786454297
   }
 ]
