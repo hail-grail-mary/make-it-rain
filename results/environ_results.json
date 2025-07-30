@@ -151,5 +151,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1753788287081
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Linux; Android 11; 220233L2G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36\",\n    \"platform\": \"Linux armv8l\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en-US\",\n      \"en\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 360,\n    \"screenHeight\": 800,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 2,\n    \"windowWidth\": 360,\n    \"windowHeight\": 669,\n    \"hardwareConcurrency\": 4,\n    \"timezone\": \"Africa/Douala\",\n    \"timezoneOffset\": -60,\n    \"architecture\": \"ARM\",\n    \"detectedPlatform\": \"Android\",\n    \"isMobile\": true,\n    \"timestamp\": \"2025-07-30T06:50:54.401Z\"\n  },\n  \"mobile\": {\n    \"maxTouchPoints\": 5,\n    \"touchSupport\": true,\n    \"vibration\": true,\n    \"gamepad\": true,\n    \"orientation\": {\n      \"angle\": 0,\n      \"type\": \"portrait-primary\"\n    },\n    \"browserEngine\": \"Chrome Mobile\",\n    \"deviceMotion\": false,\n    \"deviceOrientation\": false,\n    \"battery\": {\n      \"charging\": false,\n      \"level\": 0.82,\n      \"chargingTime\": null,\n      \"dischargingTime\": 21637\n    },\n    \"connection\": {\n      \"effectiveType\": \"4g\",\n      \"downlink\": 0.45,\n      \"rtt\": 300,\n      \"saveData\": true\n    },\n    \"canvasFingerprint\": \"ICOx2QLrcwqiBS4EtU4P8Bg1u4q/nzbCIAAAAASUVORK5CYII=\",\n    \"webglFingerprint\": {\n      \"vendor\": \"WebKit\",\n      \"renderer\": \"WebKit WebGL\",\n      \"version\": \"WebGL 1.0 (OpenGL ES 2.0 Chromium)\",\n      \"shadingLanguageVersion\": \"WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)\",\n      \"maxTextureSize\": 4096,\n      \"maxViewportDims\": {\n        \"0\": 8192,\n        \"1\": 8192\n      }\n    }\n  },\n  \"location\": {\n    \"error\": \"Only secure origins are allowed (see: https://goo.gl/Y0ZkNV).\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1753858255158_jqydp4rnt\",\n    \"timestamp\": \"2025-07-30T06:50:55.158Z\",\n    \"platform\": \"Android\",\n    \"isMobile\": true\n  }\n}",
+    "timestamp": "2025-07-30T06:50:56.138Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1753858256138
   }
 ]
