@@ -160,5 +160,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1757565292343
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en\",\n      \"en-US\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 1114,\n    \"screenHeight\": 627,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1.725000023841858,\n    \"windowWidth\": 1034,\n    \"windowHeight\": 519,\n    \"hardwareConcurrency\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"x64\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": false,\n    \"timestamp\": \"2025-09-11T13:15:49.719Z\"\n  },\n  \"mobile\": null,\n  \"location\": {\n    \"error\": \"Only secure origins are allowed (see: https://permanently-removed.invalid/Y0ZkNV).\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1757596549759_8yx44bks6\",\n    \"timestamp\": \"2025-09-11T13:15:49.759Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": false\n  }\n}",
+    "timestamp": "2025-09-11T13:15:50.591Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1757596550591
   }
 ]
