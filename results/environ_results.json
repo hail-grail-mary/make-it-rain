@@ -43,5 +43,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1757548660044
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36\",\n    \"platform\": \"Linux armv81\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en-US\",\n      \"en\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 360,\n    \"screenHeight\": 800,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 2,\n    \"windowWidth\": 360,\n    \"windowHeight\": 668,\n    \"hardwareConcurrency\": 4,\n    \"timezone\": \"Africa/Douala\",\n    \"timezoneOffset\": -60,\n    \"architecture\": \"ARM\",\n    \"detectedPlatform\": \"Android\",\n    \"isMobile\": true,\n    \"timestamp\": \"2025-09-11T00:03:47.305Z\"\n  },\n  \"mobile\": {\n    \"maxTouchPoints\": 5,\n    \"touchSupport\": true,\n    \"vibration\": true,\n    \"gamepad\": true,\n    \"orientation\": {\n      \"angle\": 0,\n      \"type\": \"portrait-primary\"\n    },\n    \"browserEngine\": \"Chrome Mobile\",\n    \"deviceMotion\": false,\n    \"deviceOrientation\": false,\n    \"connection\": {\n      \"effectiveType\": \"4g\",\n      \"downlink\": 0.45,\n      \"rtt\": 200,\n      \"saveData\": false\n    },\n    \"canvasFingerprint\": \"D//wU+TIQAAAAGSURBVAMASndOzgFTIN4AAAAASUVORK5CYII=\",\n    \"webglFingerprint\": {\n      \"vendor\": \"WebKit\",\n      \"renderer\": \"WebKit WebGL\",\n      \"version\": \"WebGL 1.0 (OpenGL ES 2.0 Chromium)\",\n      \"shadingLanguageVersion\": \"WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)\",\n      \"maxTextureSize\": 4096,\n      \"maxViewportDims\": {\n        \"0\": 8192,\n        \"1\": 8192\n      }\n    }\n  },\n  \"location\": {\n    \"error\": \"Only secure origins are allowed (see: https://goo.gl/Y0ZkNV).\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1757549027603_wgk6fanmi\",\n    \"timestamp\": \"2025-09-11T00:03:47.603Z\",\n    \"platform\": \"Android\",\n    \"isMobile\": true\n  }\n}",
+    "timestamp": "2025-09-11T00:03:48.096Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1757549028096
   }
 ]
