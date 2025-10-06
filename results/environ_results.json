@@ -88,5 +88,14 @@
     "codeLength": 8496,
     "resultType": "object",
     "execution_id": 1759387244672
+  },
+  {
+    "module": "environ",
+    "success": true,
+    "output": "{\n  \"basic\": {\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\",\n    \"platform\": \"Win32\",\n    \"language\": \"en-GB\",\n    \"languages\": [\n      \"en-GB\",\n      \"en\",\n      \"en-US\"\n    ],\n    \"cookieEnabled\": true,\n    \"onLine\": true,\n    \"screenWidth\": 1392,\n    \"screenHeight\": 783,\n    \"screenColorDepth\": 24,\n    \"screenPixelDepth\": 24,\n    \"devicePixelRatio\": 1.3799999952316284,\n    \"windowWidth\": 1312,\n    \"windowHeight\": 675,\n    \"hardwareConcurrency\": 4,\n    \"deviceMemory\": 4,\n    \"timezone\": \"Europe/Budapest\",\n    \"timezoneOffset\": -120,\n    \"architecture\": \"x64\",\n    \"detectedPlatform\": \"Unknown\",\n    \"isMobile\": false,\n    \"timestamp\": \"2025-10-06T04:00:30.512Z\"\n  },\n  \"mobile\": null,\n  \"location\": {\n    \"error\": \"Timeout expired\"\n  },\n  \"fingerprint\": {\n    \"sessionId\": \"env_1759723235560_3nsuon5g7\",\n    \"timestamp\": \"2025-10-06T04:00:35.560Z\",\n    \"platform\": \"Unknown\",\n    \"isMobile\": false\n  }\n}",
+    "timestamp": "2025-10-06T04:00:36.787Z",
+    "codeLength": 8496,
+    "resultType": "object",
+    "execution_id": 1759723236787
   }
 ]
